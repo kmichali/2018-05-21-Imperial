@@ -555,9 +555,7 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
         SQLite comes pre-installed on Linux.
       </p>
     </div>
-
-
-  
+  </div>
 </div> {% comment %} End of 'SQLite' section. {% endcomment %}
 
 
