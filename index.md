@@ -517,12 +517,49 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
   </div>
 </div> {% comment %} End of 'editor' section. {% endcomment %}
 
-<div id="python"> {% comment %} Start of 'Python' section. Remove the third paragraph if
-           the workshop will teach Python using something other than
-           the Jupyter notebook.
-           Details at https://jupyter-notebook.readthedocs.io/en/stable/notebook.html#browser-compatibility {% endcomment %}
+  <h3>SQLite</h3>
+
+  <p>
+    SQL is a specialized programming language used with databases.  We
+    use a simple database manager called
+    <a href="http://www.sqlite.org/">SQLite</a> in our lessons.
+  </p>
+
+  <div class="row">
+    <div class="col-md-4">
+      <h4 id="sql-windows">Windows</h4>
+      <p>
+        The <a href="{{site.swc_installer}}">
+          {% if page.carpentry == "swc" %}
+          Software Carpentry
+          {% elsif page.carpentry == "dc" %}
+          Data Carpentry
+          {% elsif page.carpentry == "lc" %}
+          Library Carpentry
+          {% endif %}
+          Windows Installer
+	</a>
+        installs SQLite for Windows.
+        If you used the installer to configure nano, you don't need to run it again.
+      </p>
+    </div>
+    <div class="col-md-4">
+      <h4 id="sql-macosx">macOS</h4>
+      <p>
+        SQLite comes pre-installed on macOS.
+      </p>
+    </div>
+    <div class="col-md-4">
+      <h4 id="sql-linux">Linux</h4>
+      <p>
+        SQLite comes pre-installed on Linux.
+      </p>
+    </div>
+  </div>
+
   
- 
+</div> {% comment %} End of 'SQLite' section. {% endcomment %}
+
 
 
 
