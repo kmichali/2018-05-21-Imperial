@@ -231,7 +231,7 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
 
 <h2 id="setup">Class online document</h2>
 <p id="collaborative_notes">
-  <b>We will use this <a href=" http://pad.software-carpentry.org/2018-04-23-Imperial">collaborative document</a> for chatting, taking notes, and sharing URLs and bits of code.</b>
+  <b>We will use this <a href=" http://pad.software-carpentry.org/2018-05-21-Imperial">collaborative document</a> for chatting, taking notes, and sharing URLs and bits of code.</b>
 </p>
 
 
